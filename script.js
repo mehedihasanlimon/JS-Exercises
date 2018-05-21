@@ -23,3 +23,25 @@ function checkEmail(emailstring){
 console.log(checkEmail("john@smith.com"));
 console.log(checkEmail("johnsmith@gmail.com"));
 
+//task 4 
+var library = [
+   {
+       author: 'Bill Gates',
+       title: 'The Road Ahead',
+       readingStatus: true
+   },
+   {
+       author: 'Steve Jobs',
+       title: 'Walter Isaacson',
+       readingStatus: true
+   },
+   {
+       author: 'Suzanne Collins',
+       title:  'Mockingjay: The Final Book of The Hunger Games', 
+       readingStatus: false
+   }];
+
+function getreadingStatus(index){
+    return library[index].getreadingStatus;
+}
+console.log(getreadingStatus(1));
