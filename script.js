@@ -41,7 +41,7 @@ var library = [
        readingStatus: false
    }];
 
-function getreadingStatus(index){
-    return library[index].getreadingStatus;
+function GetReadingStatus(index){
+    return library[index].GetReadingStatus;
 }
-console.log(getreadingStatus(1));
+console.log(GetReadingStatus(1));
